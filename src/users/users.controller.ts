@@ -1,8 +1,7 @@
-
 import { Controller, Get, Post } from '@nestjs/common';
 
-@Controller('book')
-export class BookController {
+@Controller('users')
+export class UsersController {
 
 
   @Post()
@@ -16,4 +15,3 @@ export class BookController {
   }
 
 }
-
